@@ -32,7 +32,7 @@ function cf_turnstile_key() {
 Require the **helper_turnstile_login.php** file in your theme **functions.php** file.
 
 ```php
-require_once ( 'includes/helpers/helper_captcha_verify.php' )
+require_once ( 'includes/helpers/helper_captcha_verify.php' );
 ```
 
 Cloudflare Turnstile provides hassle-free, CAPTCHA-free web experiences for website visitors. Using it in a WordPress login is definitely worth it.
